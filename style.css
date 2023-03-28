@@ -16,7 +16,7 @@
   
   nav {
     width: 100%;
-    height: 15vh;
+    height: 8vh;
     background: rgba(0, 0, 0, 0.2);
     color: rgb(255, 255, 255);
     display: flex;
@@ -40,6 +40,7 @@
   nav .menu a {
     /* width: 1%; */
     text-decoration: none;
+    padding: 0px 10px;
     color: white;
     font-weight: bold;
   }
@@ -96,6 +97,7 @@
     /*background: #00b894;*/
     background: #fff;
     color: #000;
+  
   }
   
   .btnone:hover {
@@ -125,6 +127,7 @@
   .back-video1{
     z-index: -1;
     position:fixed;
+    width: 100%;
   }
 
 
@@ -136,23 +139,143 @@
     margin: 0;
     padding: 0;
     height: 100%;
+    width: 100vw;
+    overflow-x: hidden;
   }
   
   .gradient-container {
     height: 100%;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to bottom, black, #9b51e0, black);
+    background: linear-gradient(to bottom, #1a1a1a, #1a1a1a,#1a1a1a, #373777  ,#1a1a1a, #1a1a1a, #1a1a1a);
     text-align:center;
     color: white;
     font-family: Arial, sans-serif;
     align-items: center;
-    justify-content: center;
-  }
+    justify-content:center;
+}
+
+
+.content{
+  text-align: center;
+  margin-top: 300px;
+
+}
+.content h1{
+  
+   font-size: 70px;
+   color: white;
+   font-weight: 600;
+   /* padding: 300px 600px; */
+   
+}
+.content a{
+   text-decoration: none;
+   display: inline-block;
+   color: white;
+   font-size: 24px;
+   border: 2px solid white;
+   border-radius: 50px;
+   padding: 14px 70px;
+   margin-top: 10px;
+
+
+}
+
+.new-content {
+  position: absolute;
+  top: 1750px; /* Yahan aapko apne header ke height ke hisab se top value set karni hogi */
+  left: 0;
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.new-content2{
+  position: absolute;
+  top: 2500px; /* Yahan aapko apne header ke height ke hisab se top value set karni hogi */
+  left: 0;
+  width: 100%;
+  height: 100%;
+ 
+}
+.new-content3{
+  position: absolute;
+  top: 3200px; /* Yahan aapko apne header ke height ke hisab se top value set karni hogi */
+  left: 0;
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.new-content4{
+  position: absolute;
+  top: 3500px; /* Yahan aapko apne header ke height ke hisab se top value set karni hogi */
+  left: 0;
+  width: 100%;
+ 
+ 
+  
+ 
+}
+
+.back-video2{
+  z-index: -1;
+  width: 100%;
+  
+}
+.back-video3{
+  z-index: -1;
+  width: 100%;
   
   
   
+}
+.back-video4{
+  z-index: -1;
+  width: 100%;
   
   
+}
+
+.gradient-container1 {
+  height: 100%;
+  top: 4200px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #f00d0d, #ff2424,#c30707, #000070  ,#1a1a1a, #1a1a1a, #1a1a1a);
+  text-align:center;
+  color: white;
+  font-family: Arial, sans-serif;
+  align-items: center;
+  justify-content:center;
+  position: absolute;
+  width: 100%;
+}
+
+.foot{
+  width: 100%;
+  height: 10vh;
+  position: absolute;
+  top: 5100px;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+ 
+ 
+}
+
+.foo a{
+  color: #00b894;
+  align-items: center;
+  text-decoration: none;
+  align-self: center;
+  justify-content: center;
+  display: flex;
   
-  
+}
+
+
+
+
+
